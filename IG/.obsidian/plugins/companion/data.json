@@ -1,0 +1,26 @@
+{
+  "provider": "groq",
+  "model": "llama-3.2-1b-preview",
+  "enable_by_default": true,
+  "keybind": "Tab",
+  "delay_ms": 1000,
+  "stream": false,
+  "accept": {
+    "splitter_regex": "\\.",
+    "display_splitter_regex": "[.?!:;]",
+    "completion_completeness_regex": ".*[^d]$",
+    "min_accept_length": 4,
+    "min_display_length": 50,
+    "retrigger_threshold": 128
+  },
+  "provider_settings": {
+    "groq": {
+      "settings": "{\"api_key\":\"\"}",
+      "models": {
+        "llama-3.1-8b-instant": "{\"system_prompt\":\"\",\"user_prompt\":\"{{#context}}Context:\\n\\n{{context}}\\n\\n=================================\\n{{/context}}Do not start with \\\"...\\\". Continue the following paragraph without starting by what has already been said:\\n\\n{{last_line}}\",\"max_tokens\":100}"
+      }
+    }
+  },
+  "presets": [],
+  "fallback": null
+}

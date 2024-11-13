@@ -1,0 +1,10 @@
+{
+  "companion:toggle": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
+  ]
+}
