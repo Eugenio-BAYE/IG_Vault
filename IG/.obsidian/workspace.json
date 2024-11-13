@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "deb26028bcc538d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab4f1e7b6883c209",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "257e0da28848866f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ea4edb0d525034d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5184a8bc461f28d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffbb16fe7d1fff04",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9411add1f106c68c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "gpt",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "06388f5516fe7791",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aba3d139c7b3ca9c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6011d2820b370c40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8febe1032f00c69a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Divers/Web/Angular Setup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Angular Setup"
+            }
+          },
+          {
+            "id": "b782a80eafd32b95",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Divers/Web/Angular Setup.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Angular Setup"
+            }
+          },
+          {
+            "id": "2675ac31e3682ad6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d148a60a859d9872",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Divers/Developer eXperience/GIT/Conventionnal Commits CS.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Conventionnal Commits CS"
+            }
+          },
+          {
+            "id": "87e6540da295c8d9",
+            "type": "leaf",
+            "state": {
+              "type": "code-execute-manage-executors",
+              "state": {},
+              "icon": "command-glyph",
+              "title": "Execution Runtimes"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 604,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "companion:Toggle completion": false
+    }
+  },
+  "active": "257e0da28848866f",
+  "lastOpenFiles": [
+    "Semestre 7/Algo Avance/Support/ALGO_AVANCEE_FLOTS_COURS.pdf",
+    "Semestre 7/Algo Avance/Support",
+    "Semestre 7/Algo Avance/Exercices/TD2.md",
+    "Semestre 7/Algo Avance/Exercices/TD1.md",
+    "Semestre 7/Algo Avance/Exercices/Sujets/exam_2021_2022_DP_reduction.pdf",
+    "Semestre 7/Algo Avance/Exercices/Sujets/Exam_Algo_Avance_2022-2023-2.pdf",
+    "Semestre 7/Algo Avance/Exercices/Sujets/Algo_Avance_TD_Reduction.pdf",
+    "Semestre 7/Algo Avance/Exercices/Corrections/Sujet 2 avec Corrections.pdf",
+    "Semestre 7/Algo Avance/Exercices/Corrections/Sujet 1 avec Corrections.pdf",
+    "Semestre 7/Algo Avance/Exercices/Sujets",
+    "Semestre 7/Algo Avance/Exercices/Corrections",
+    "Semestre 7/Algo Avance/Exercices",
+    "Semestre 7/Algo Avance/Cours/Réduction.md",
+    "Semestre 7/Algo Avance/Cours/Programmation Dynamique.md",
+    "Semestre 7/Algo Avance/Cours/Méthodologies/REC TO DP.md",
+    "Semestre 7/Algo Avance/Cours/Méthodologies",
+    "Semestre 7/Algo Avance/Cours/Flots.md",
+    "Semestre 7/Algo Avance/Cours/FIG FROM FLOTS/FLOTS - FIG4.png",
+    "Semestre 7/Algo Avance/Cours/FIG FROM FLOTS/FLOTS - FIG3.png",
+    "Semestre 7/Algo Avance/Cours/FIG FROM FLOTS/FLOTS - FIG2.png",
+    "Semestre 7/Algo Avance/Cours/FIG FROM FLOTS/FLOTS - FIG1.png",
+    "Semestre 7/Algo Avance/Cours/COURS_GPT.md",
+    "Semestre 7/Algo Avance/Commentaires/FLOTS - DEF. FLOTS.md",
+    "Semestre 7/Algo Avance/Commentaires/COUPE - DEF. FLOTS.md",
+    "Semestre 7/Algo Avance/Cours.md",
+    "copilot-conversations/hey@20241026_173614.md",
+    "Semestre 7/Statistiques/Notes/Cours Tests.md",
+    "Semestre 7/Statistiques/Notes/CLT.md",
+    "Semestre 7/Statistiques/Exercices/exo sup.md",
+    "Semestre 7/Statistiques/Exercices/TP1_MATERIAL.md",
+    "Semestre 7/Statistiques/Exercices/TP1.md",
+    "Semestre 7/Statistiques/Exercices/EXERCICES_COURS2_PAGE47.md",
+    "Semestre 7/Statistiques/Exercices/EXERCICES SUP PART1.md",
+    "Semestre 7/Statistiques/Exercices/EXERCICE TD1.md",
+    "Semestre 7/Statistiques/Exercices/EXERCICE K2.md",
+    "Semestre 7/Statistiques/Cours/Tests.md",
+    "Semestre 7/Statistiques/Statistiques - FIG1.png",
+    "Semestre 7/Statistiques/Cours.md",
+    "Semestre 7/Statistical Learning/Cours.md",
+    "Semestre 7/SEDP/UML.md",
+    "Semestre 7/SEDP/Projet/Project.md",
+    "Semestre 7/SEDP/Exercices/TP SE/TP OCSF/Diagramme de sequence 2.png",
+    "Semestre 7/SEDP/Exercices/TP SE/TP OCSF/Diagramme de sequence 1.png",
+    "Semestre 7/SEDP/Exercices/TP SE/TP OCSF/Diagramme de collaboration.png",
+    "Semestre 7/SEDP/Exercices/TP SE/TP OCSF/Diagramme de classe de simplechat1.png",
+    "Semestre 7/SEDP/FIG FROM COURS/UML - FIG9.png",
+    "Untitled.canvas"
+  ]
+}
