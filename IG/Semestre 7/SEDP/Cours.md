@@ -1,3 +1,3 @@
-![[Design Principles]]
+![[Frameworks]]
 ![[Design Patterns]]
 ![[UML]]
