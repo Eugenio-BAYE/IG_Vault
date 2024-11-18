@@ -469,4 +469,51 @@ Gestion des cubes de différents types :
 >   - MONTPELLIER, BON : 18
 >   - MONTPELLIER, ABIME : 2
 
-> [!failure] Until Conclusion
+## Dimensions
+### Clefs
+On ajoute souvent une clef de substitution pour remplacer la combinaison d'attributs qui représente l'ancienne clef primaire.
+
+### Domaines évolutifs
+
+> [!important] Domaines à Rafraîchissement Lent (SCD)
+> - *Définition* : Les domaines de données qui changent rarement, par exemple les données démographiques de clients ou les descriptions de produits.
+> - *Exemple* : Des informations telles que le nom, l’adresse d’un client, ou la description d’un produit.
+> - *Utilisation* : Ces données ne nécessitent pas des mises à jour fréquentes, et leur rafraîchissement peut être planifié de manière moins régulière.
+
+---
+
+> [!important] Domaines à Rafraîchissement Rapide (RCD)
+> - *Définition* : Les domaines de données qui changent fréquemment, comme les transactions de vente, les inventaires ou les taux d’actualisation.
+> - *Exemple* : Les ventes quotidiennes, le stock de produits, ou les flux financiers.
+> - *Utilisation* : Ces données nécessitent des mises à jour en temps réel ou à des intervalles très courts pour garantir l’exactitude de l’analyse décisionnelle.
+
+## Estimation des volumes
+
+> [!important] Estimer le volume de l'entrepôt
+> - *Étapes pour estimer le volume* :
+>   - Identifier le nombre de tables et leur taille moyenne.
+>   - Calculer la taille de chaque table en multipliant le nombre de lignes par la taille moyenne d'un enregistrement.
+>   - Considérer les index, les métadonnées, et la redondance.
+>   - Prendre en compte la croissance des données sur une période donnée (par exemple, sur 5 ans).
+> - *Formule* : Volume total = (Taille des tables + Index + Redondance) x Facteur de croissance.
+
+## Conclusion
+
+> [!important]
+> - L'analyse et le design d'un entrepôt de données nécessitent une estimation précise des volumes pour assurer la performance et la scalabilité.
+> - La compréhension des types d'évolution des données (lentes ou rapides) est cruciale pour optimiser les opérations de rafraîchissement et la mise à jour des données.
+> - Une planification minutieuse garantit que l'entrepôt pourra répondre aux besoins futurs sans compromettre la performance.
+
+## Ajouts
+> [!tip] Densité cube de donnée
+> La **densité d'un cube de données** représente le pourcentage de cellules du cube qui contiennent des données réelles, par rapport au nombre total de cellules possibles.
+> $$\text{Densité}=\frac{\text{Nombre de cellules avec données}}{\text{Nombre total de cellules possibles}}\times100$$
+> 
+> Donc souvent en pratique:
+>  $$\frac{\text{Nombre de lignes affichées par GROUP BY CUBE}}{\text{Nombre théorique de lignes en multipliant le nombre de valeur pour chaque dimension}}$$
+
+
+## Référence
+- Ralph Kimball, Entrepôts de Données, Vuibert, 2002.
+- Jiawei Han, Micheline Kamber, Data Mining: Concepts and Techniques, Morgan Kaufmann Publishers, 2000.
+- http://www.oracle.com
